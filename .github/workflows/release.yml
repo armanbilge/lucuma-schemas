@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: olafurpg/setup-scala@v13
+      - uses: olafurpg/setup-scala@v14
         with:
           java-version: adoptium@11
       - uses: olafurpg/setup-gpg@v3
